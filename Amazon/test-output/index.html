@@ -142,12 +142,13 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Amazon E-Commerce&quot; parallel=&quot;tests&quot;&gt;
-  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
-  &lt;parameter name=&quot;os&quot; value=&quot;Mac&quot;/&gt;
-  &lt;parameter name=&quot;accessKey&quot; value=&quot;6f132866-de72-43fd-b49a-e6f81d26bfe3&quot;/&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;true&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
+  &lt;parameter name=&quot;accessKey&quot; value=&quot;ktEzjVpoWk9gqxz9PMWW&quot;/&gt;
   &lt;parameter name=&quot;browserVersion&quot; value=&quot;49.0&quot;/&gt;
   &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
-  &lt;parameter name=&quot;userName&quot; value=&quot;rahmanww&quot;/&gt;
+  &lt;parameter name=&quot;env&quot; value=&quot;browserstack&quot;/&gt;
+  &lt;parameter name=&quot;userName&quot; value=&quot;mohammadrahman1&quot;/&gt;
   &lt;parameter name=&quot;url&quot; value=&quot;http://www.amazon.com&quot;/&gt;
   &lt;test name=&quot;Amazon Search&quot;&gt;
     &lt;classes&gt;
@@ -195,12 +196,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'dropDownMenu')
 data.setCell(0, 2, 'SearchItems.DropDownMenuSearch')
-data.setCell(0, 3, 130336);
+data.setCell(0, 3, 27092);
 window.suiteTableData['Amazon_E-Commerce']= { tableData: data, tableDiv: 'times-div-Amazon_E-Commerce'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
               <div id="times-div-Amazon_E-Commerce">
               </div> <!-- times-div-Amazon_E-Commerce -->
             </div> <!-- times-div -->
@@ -228,16 +229,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">SearchItems.DropDownMenuSearch</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, rahmanww, 6f132866-de72-43fd-b49a-e6f81d26bfe3, Mac, chrome, 49.0, http://www.amazon.com)</span>
+                <span class="method-name">setUp(true, browserstack, mohammadrahman1, ktEzjVpoWk9gqxz9PMWW, OS X, chrome, 49.0, http://www.amazon.com)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">dropDownMenu</span>
-                <span class="method-start">5298 ms</span>
+                <span class="method-start">30745 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">135635 ms</span>
+                <span class="method-start">57838 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

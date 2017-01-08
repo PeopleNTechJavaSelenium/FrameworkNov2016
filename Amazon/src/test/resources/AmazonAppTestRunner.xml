@@ -5,11 +5,12 @@
     <suite name="Amazon E-Commerce" parallel="tests">
 
         <parameter name="useCloudEnv" value="true"/>
+        <parameter name="env" value="browserstack"/>
         <parameter name="userName" value="mohammadrahman1"/>
         <parameter name="accessKey" value="ktEzjVpoWk9gqxz9PMWW"/>
-        <parameter name="os" value="Mac"/>
+        <parameter name="os" value="OS X"/>
         <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="49.0"/>
+        <parameter name="browserVersion" value="55.0"/>
         <parameter name="url" value="http://www.amazon.com"/>
 
         <test name = "Amazon Search">
