@@ -34,15 +34,15 @@ public class CommonAPI {
 
 
     public WebDriver driver = null;
-    @Parameters({"useCloudEnv","userName","accessKey","os","browserName","browserVersion","url"})
+    @Parameters({"useCloudEnv","env","userName","accessKey","os","browserName","browserVersion","url"})
     @BeforeMethod
-    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("rahmanww") String userName, @Optional("")
+    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("Saucelabs") String env,@Optional("rahmanww") String userName, @Optional("")
     String accessKey, @Optional("Windows 8") String os, @Optional("firefox") String browserName, @Optional("34")
                       String browserVersion, @Optional("http://www.cnn.com") String url)throws IOException {
 
         if(useCloudEnv==true){
             //run in cloud
-            getCloudDriver(userName,accessKey,os,browserName,browserVersion);
+            getCloudDriver(env,userName,accessKey,os,browserName,browserVersion);
 
         }else{
             //run in local
@@ -80,15 +80,23 @@ public class CommonAPI {
 
     }
 
-    public WebDriver getCloudDriver(String userName,String accessKey,String os, String browserName,
+    public WebDriver getCloudDriver(String env, String userName,String accessKey,String os, String browserName,
                                     String browserVersion)throws IOException {{
 
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability("platform", os);
         cap.setBrowserName(browserName);
         cap.setCapability("version",browserVersion);
-        driver = new RemoteWebDriver(new URL("http://"+userName+":"+accessKey+
-                "@ondemand.saucelabs.com:80/wd/hub"), cap);
+        cap.setCapability("os", os);
+        cap.setCapability("os_version", "Sierra");
+        cap.setCapability("resolution", "1024x768");
+        if(env.equalsIgnoreCase("Saucelabs")){
+            driver = new RemoteWebDriver(new URL("http://"+userName+":"+accessKey+
+                    "@ondemand.saucelabs.com:80/wd/hub"), cap);
+        }else if(env.equalsIgnoreCase("Browserstack")) {
+            driver = new RemoteWebDriver(new URL("http://" + userName + ":" + accessKey +
+                    "@hub-cloud.browserstack.com/wd/hub"), cap);
+        }
         return driver;
     }
     }

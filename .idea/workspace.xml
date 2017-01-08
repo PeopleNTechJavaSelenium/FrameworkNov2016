@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79bc3ab4-069e-4fd9-8a87-ef3f9e739c71" name="Default" comment="" />
+    <list default="true" id="79bc3ab4-069e-4fd9-8a87-ef3f9e739c71" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonAppTestRunner.xml" afterPath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonAppTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/src/test/resources/CnnAppTestRunner.xml" afterPath="$PROJECT_DIR$/Cnn/src/test/resources/CnnAppTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/test-classes/CnnAppTestRunner.xml" afterPath="$PROJECT_DIR$/Cnn/target/test-classes/CnnAppTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/test-output/Potbelly Client on Chrome Browser/Cnn Home Page.html" afterPath="$PROJECT_DIR$/Cnn/test-output/Potbelly Client on Chrome Browser/Cnn Home Page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/test-output/Potbelly Client on Chrome Browser/Cnn Home Page.xml" afterPath="$PROJECT_DIR$/Cnn/test-output/Potbelly Client on Chrome Browser/Cnn Home Page.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/test-output/Potbelly Client on Chrome Browser/testng-failed.xml" afterPath="$PROJECT_DIR$/Cnn/test-output/Potbelly Client on Chrome Browser/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/test-output/emailable-report.html" afterPath="$PROJECT_DIR$/Cnn/test-output/emailable-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/test-output/index.html" afterPath="$PROJECT_DIR$/Cnn/test-output/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/test-output/junitreports/TEST-home.TestCnnHome.xml" afterPath="$PROJECT_DIR$/Cnn/test-output/junitreports/TEST-home.TestCnnHome.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/test-output/old/Potbelly Client on Chrome Browser/methods-alphabetical.html" afterPath="$PROJECT_DIR$/Cnn/test-output/old/Potbelly Client on Chrome Browser/methods-alphabetical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/test-output/old/Potbelly Client on Chrome Browser/methods.html" afterPath="$PROJECT_DIR$/Cnn/test-output/old/Potbelly Client on Chrome Browser/methods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/test-output/old/Potbelly Client on Chrome Browser/testng.xml.html" afterPath="$PROJECT_DIR$/Cnn/test-output/old/Potbelly Client on Chrome Browser/testng.xml.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/test-output/old/Potbelly Client on Chrome Browser/toc.html" afterPath="$PROJECT_DIR$/Cnn/test-output/old/Potbelly Client on Chrome Browser/toc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/test-output/old/index.html" afterPath="$PROJECT_DIR$/Cnn/test-output/old/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/test-output/testng-failed.xml" afterPath="$PROJECT_DIR$/Cnn/test-output/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/test-output/testng-results.xml" afterPath="$PROJECT_DIR$/Cnn/test-output/testng-results.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -25,24 +45,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DropDownMenuSearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/SearchItems/DropDownMenuSearch.java">
+      <file leaf-file-name="CnnAppTestRunner.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnAppTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CnnAppTestRunner.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnAppTestRunner.xml">
+      <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="291">
+              <caret line="90" column="50" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4318#4319#0" expanded="true" />
+                <element signature="e#4379#4380#0" expanded="true" />
+                <element signature="e#5365#5377#0" expanded="true" />
+                <element signature="e#5422#5430#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,31 +104,29 @@
       <file leaf-file-name="TestCnnHome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/home/TestCnnHome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="5" selection-start-line="13" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AmazonAppTestRunner.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Invoker.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/internal/Invoker.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="465" column="0" selection-start-line="465" selection-start-column="0" selection-end-line="465" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AmazonAppTestRunner.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonAppTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="59" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="59" />
+            <state relative-caret-position="120">
+              <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Items.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/SearchItems/Items.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -181,8 +203,6 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java" />
         <option value="$PROJECT_DIR$/Amazon/src/main/java/page_factory/SearchItems.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/SearchItems/HomeSearch.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonAppTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/SearchItems/DropDownMenuSearch.java" />
         <option value="$PROJECT_DIR$/Amazon/src/main/java/page_factory/DropDownMenuPage.java" />
         <option value="$PROJECT_DIR$/Amazon/src/main/java/pageFactoryLogin/SearchObjects.java" />
@@ -191,11 +211,13 @@
         <option value="$PROJECT_DIR$/Amazon/pom.xml" />
         <option value="$PROJECT_DIR$/Cnn/src/test/java/home/TestCnnHome.java" />
         <option value="$PROJECT_DIR$/Amazon/src/main/java/PageFactorySearch/DropDownMenuPage.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/test/resources/CnnAppTestRunner.xml" />
         <option value="$PROJECT_DIR$/Cnn/src/test/resources/CnnAppLogTestRunner.xml" />
         <option value="$PROJECT_DIR$/Cnn/src/test/java/home/LogOut.java" />
         <option value="$PROJECT_DIR$/Cnn/src/test/java/home/LogIn.java" />
         <option value="$PROJECT_DIR$/Cnn/pom.xml" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonAppTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Cnn/src/test/resources/CnnAppTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
       </list>
     </option>
   </component>
@@ -270,7 +292,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="30" />
+    <option name="x" value="89" />
     <option name="y" value="23" />
     <option name="width" value="1412" />
     <option name="height" value="827" />
@@ -318,6 +340,76 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FrameworkNov2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrameworkNov2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrameworkNov2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Generic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrameworkNov2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrameworkNov2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Generic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrameworkNov2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrameworkNov2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Generic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -881,18 +973,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_mrahman_develop_pnt_FrameworkNov2016_Amazon_src_test_resources_AmazonAppTestRunner_xml - 2017.01.08 at 12h 03m 19s.xml">
-      <configuration name="/Users/mrahman/develop/pnt/FrameworkNov2016/Amazon/src/test/resources/AmazonAppTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mrahman_develop_pnt_FrameworkNov2016_Amazon_src_test_resources_AmazonAppTestRunner_xml - 2017.01.08 at 12h 05m 25s.xml">
-      <configuration name="/Users/mrahman/develop/pnt/FrameworkNov2016/Amazon/src/test/resources/AmazonAppTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mrahman_develop_pnt_FrameworkNov2016_Amazon_src_test_resources_AmazonAppTestRunner_xml - 2017.01.08 at 12h 07m 28s.xml">
-      <configuration name="/Users/mrahman/develop/pnt/FrameworkNov2016/Amazon/src/test/resources/AmazonAppTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_mrahman_develop_pnt_FrameworkNov2016_Amazon_src_test_resources_AmazonAppTestRunner_xml - 2017.01.08 at 12h 09m 14s.xml">
-      <configuration name="/Users/mrahman/develop/pnt/FrameworkNov2016/Amazon/src/test/resources/AmazonAppTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_mrahman_develop_pnt_FrameworkNov2016_Amazon_src_test_resources_AmazonAppTestRunner_xml - 2017.01.08 at 12h 12m 34s.xml">
       <configuration name="/Users/mrahman/develop/pnt/FrameworkNov2016/Amazon/src/test/resources/AmazonAppTestRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -911,10 +991,22 @@
     <history-entry file="_Users_mrahman_develop_pnt_FrameworkNov2016_Cnn_src_test_resources_CnnAppTestRunner_xml - 2017.01.08 at 14h 21m 36s.xml">
       <configuration name="/Users/mrahman/develop/pnt/FrameworkNov2016/Cnn/src/test/resources/CnnAppTestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_mrahman_develop_pnt_FrameworkNov2016_Cnn_src_test_resources_CnnAppTestRunner_xml - 2017.01.08 at 14h 50m 41s.xml">
+      <configuration name="/Users/mrahman/develop/pnt/FrameworkNov2016/Cnn/src/test/resources/CnnAppTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mrahman_develop_pnt_FrameworkNov2016_Cnn_src_test_resources_CnnAppTestRunner_xml - 2017.01.08 at 14h 54m 28s.xml">
+      <configuration name="/Users/mrahman/develop/pnt/FrameworkNov2016/Cnn/src/test/resources/CnnAppTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mrahman_develop_pnt_FrameworkNov2016_Cnn_src_test_resources_CnnAppTestRunner_xml - 2017.01.08 at 14h 57m 14s.xml">
+      <configuration name="/Users/mrahman/develop/pnt/FrameworkNov2016/Cnn/src/test/resources/CnnAppTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mrahman_develop_pnt_FrameworkNov2016_Cnn_src_test_resources_CnnAppTestRunner_xml - 2017.01.08 at 15h 03m 18s.xml">
+      <configuration name="/Users/mrahman/develop/pnt/FrameworkNov2016/Cnn/src/test/resources/CnnAppTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="23" width="1412" height="827" extended-state="1" />
-    <editor active="false" />
+    <frame x="89" y="23" width="1412" height="827" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -923,16 +1015,16 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21671388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23087071" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59102905" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7084433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19656992" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21883853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23878628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23878628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -986,7 +1078,7 @@
           <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1017,10 +1109,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4008#4009#0" expanded="true" />
-            <element signature="e#4083#4084#0" expanded="true" />
-            <element signature="e#4935#4947#0" expanded="true" />
-            <element signature="e#4992#5000#0" expanded="true" />
+            <element signature="e#4318#4319#0" expanded="true" />
+            <element signature="e#4379#4380#0" expanded="true" />
+            <element signature="e#5365#5377#0" expanded="true" />
+            <element signature="e#5422#5430#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1179,14 +1271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="879" column="0" selection-start-line="879" selection-start-column="0" selection-end-line="879" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -1311,20 +1395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4008#4009#0" expanded="true" />
-            <element signature="e#4083#4084#0" expanded="true" />
-            <element signature="e#4935#4947#0" expanded="true" />
-            <element signature="e#4992#5000#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1392,14 +1462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/home/TestCnnHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="5" selection-start-line="13" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/home/LogIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1424,19 +1486,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnAppTestRunner.xml">
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonAppTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonAppTestRunner.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/internal/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="59" />
+        <state relative-caret-position="178">
+          <caret line="465" column="0" selection-start-line="465" selection-start-column="0" selection-end-line="465" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/home/TestCnnHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/CnnAppTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="90" column="50" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4318#4319#0" expanded="true" />
+            <element signature="e#4379#4380#0" expanded="true" />
+            <element signature="e#5365#5377#0" expanded="true" />
+            <element signature="e#5422#5430#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Potbelly_Client_on_Chrome_Browser">
-              <span class="suite-name border-passed">Potbelly Client on Chrome Browser</span>
+              <span class="suite-name border-failed">Potbelly Client on Chrome Browser</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Potbelly_Client_on_Chrome_Browser" class="hide-methods passed suite-Potbelly_Client_on_Chrome_Browser"> (hide)</a> <!-- hide-methods passed suite-Potbelly_Client_on_Chrome_Browser -->
-                      <a href="#" panel-name="suite-Potbelly_Client_on_Chrome_Browser" class="show-methods passed suite-Potbelly_Client_on_Chrome_Browser"> (show)</a> <!-- show-methods passed suite-Potbelly_Client_on_Chrome_Browser -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Potbelly_Client_on_Chrome_Browser" class="hide-methods failed suite-Potbelly_Client_on_Chrome_Browser"> (hide)</a> <!-- hide-methods failed suite-Potbelly_Client_on_Chrome_Browser -->
+                      <a href="#" panel-name="suite-Potbelly_Client_on_Chrome_Browser" class="show-methods failed suite-Potbelly_Client_on_Chrome_Browser"> (show)</a> <!-- show-methods failed suite-Potbelly_Client_on_Chrome_Browser -->
                     </span>
-                    <div class="method-list-content passed suite-Potbelly_Client_on_Chrome_Browser">
+                    <div class="method-list-content failed suite-Potbelly_Client_on_Chrome_Browser">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Potbelly_Client_on_Chrome_Browser" title="home.TestCnnHome" hash-for-method="testHome">testHome</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Potbelly_Client_on_Chrome_Browser -->
+                    </div> <!-- method-list-content failed suite-Potbelly_Client_on_Chrome_Browser -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Potbelly_Client_on_Chrome_Browser" class="panel Potbelly_Client_on_Chrome_Browser">
-          <div class="suite-Potbelly_Client_on_Chrome_Browser-class-passed">
+          <div class="suite-Potbelly_Client_on_Chrome_Browser-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">home.TestCnnHome</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,10 +128,63 @@
                   <a name="testHome">
                   </a> <!-- testHome -->
                   <span class="method-name">testHome</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1),platform=Mac OS X 10.12.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-216-126-40-174.browserstack.com&apos;, ip: &apos;216.126.40.174&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.1nxQ9s}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.75, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b1af78e56aacf1bc195638ed8d8d7c4a
+Command duration or timeout: 458 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;matiurs-MacBook-Pro.local&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.1nxQ9s}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.75, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=9ff1872c0e39a46938b740db461faed54bf085bd, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9ff1872c0e39a46938b740db461faed54bf085bd
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at base.CommonAPI.clickByXpath(CommonAPI.java:109)
+	at home.TestCnnHome.testHome(TestCnnHome.java:16)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=55.0.2883.75)
+  (Driver info: chromedriver=2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1),platform=Mac OS X 10.12.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;mac-216-126-40-174.browserstack.com&apos;, ip: &apos;216.126.40.174&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1), userDataDir=/var/folders/3y/zz_w6_s56sl__vcrf3r5bhzr0000hr/T/.org.chromium.Chromium.1nxQ9s}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.75, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b1af78e56aacf1bc195638ed8d8d7c4a
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;matiurs-MacBook-Pro.local&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Potbelly_Client_on_Chrome_Browser-class-passed -->
+          </div> <!-- suite-Potbelly_Client_on_Chrome_Browser-class-failed -->
         </div> <!-- panel Potbelly_Client_on_Chrome_Browser -->
         <div panel-name="test-xml-Potbelly_Client_on_Chrome_Browser" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -142,12 +195,12 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Potbelly Client on Chrome Browser&quot;&gt;
-  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
-  &lt;parameter name=&quot;os&quot; value=&quot;Mac&quot;/&gt;
-  &lt;parameter name=&quot;accessKey&quot; value=&quot;6f132866-de72-43fd-b49a-e6f81d26bfe3&quot;/&gt;
-  &lt;parameter name=&quot;browserVersion&quot; value=&quot;50&quot;/&gt;
-  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
-  &lt;parameter name=&quot;userName&quot; value=&quot;rahmanww&quot;/&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;true&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
+  &lt;parameter name=&quot;accessKey&quot; value=&quot;ktEzjVpoWk9gqxz9PMWW&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;55.0&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
+  &lt;parameter name=&quot;userName&quot; value=&quot;mohammadrahman1&quot;/&gt;
   &lt;parameter name=&quot;url&quot; value=&quot;http://www.cnn.com/&quot;/&gt;
   &lt;test name=&quot;Cnn Home Page&quot;&gt;
     &lt;classes&gt;
@@ -195,12 +248,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testHome')
 data.setCell(0, 2, 'home.TestCnnHome')
-data.setCell(0, 3, 11547);
+data.setCell(0, 3, 14772);
 window.suiteTableData['Potbelly_Client_on_Chrome_Browser']= { tableData: data, tableDiv: 'times-div-Potbelly_Client_on_Chrome_Browser'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-Potbelly_Client_on_Chrome_Browser">
               </div> <!-- times-div-Potbelly_Client_on_Chrome_Browser -->
             </div> <!-- times-div -->
@@ -228,16 +281,18 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">home.TestCnnHome</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, rahmanww, 6f132866-de72-43fd-b49a-e6f81d26bfe3, Mac, chrome, 50, http://www.cnn.com/)</span>
+                <span class="method-name">setUp(true, mohammadrahman1, ktEzjVpoWk9gqxz9PMWW, OS X, Chrome, 55.0, http://www.cnn.com/)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testHome</span>
-                <span class="method-start">9244 ms</span>
+                <span class="method-start">15364 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20792 ms</span>
+                <span class="method-start">30160 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
